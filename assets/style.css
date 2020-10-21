@@ -1,12 +1,17 @@
 /* This is the tiled background image for the site */
 body {
-  background: rgb(199,199,219);
-background: linear-gradient(90deg, rgba(199,199,219,1) 0%, rgba(191,244,255,1) 50%, rgba(242,255,243,1) 100%);
+  background: rgb(199, 199, 219);
+  background: linear-gradient(
+    90deg,
+    rgba(199, 199, 219, 1) 0%,
+    rgba(191, 244, 255, 1) 50%,
+    rgba(242, 255, 243, 1) 100%
+  );
 }
 
 .navbar {
   margin-bottom: 20px;
-  background-color: #45364B;
+  background-color: #45364b;
 }
 
 /* This changes the padding, margin, and color of the main content boxes within the site */
@@ -40,29 +45,34 @@ background: linear-gradient(90deg, rgba(199,199,219,1) 0%, rgba(191,244,255,1) 5
 /* This changes the color and font-face of the headers used within the main content boxes */
 h1 {
   color: #4aaaa5;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Staatliches", cursive;
   font-weight: bold;
 }
 
 /* This changes the color and text of the main navigation text header */
 h2 {
-  color: #BCB4C4;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #bcb4c4;
+  font-family: "Staatliches", cursive;
+}
+
+h5 {
+  color: #2d2327;
+  font-family: "Staatliches", cursive;
 }
 /* Changes the font and color of the button on the contact page */
 .btn {
   color: white;
-  background-color: #45364B;
+  background-color: #45364b;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 1rem;
-  transition: .5s ease;
+  transition: 0.5s ease;
   margin: auto;
   border: none;
 }
 
 /* Changes the color of the button on the Contact page when hovering over it */
 .btn:hover {
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: teal;
   font-size: large;
 }
@@ -79,10 +89,10 @@ footer {
   bottom: 0;
   height: 50px;
   width: 100%;
-  background-color: #2D2327;
-  border-top: #BCB4C4 solid;
+  background-color: #2d2327;
+  border-top: #bcb4c4 solid;
   border-width: 5px;
   text-align: center;
   margin-top: 10px;
-  color: #FFF;
+  color: #fff;
 }

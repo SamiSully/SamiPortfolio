@@ -25,6 +25,10 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
     <!-- Link to the CSS stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
@@ -94,7 +98,7 @@
     <div class="container">
       <!-- The bootstrap grid in order to hold responsive images -->
       <div class="row content">
-        <h1>Portfolio</h1>
+        <h1>Current Works</h1>
         <hr />
       </div>
       <div class="row">
@@ -112,7 +116,7 @@
               <hr />
               <p class="card-text">
                 A single page javascript and jquery page that allows you to
-                record tasks based on each hour. It generates the tinkeblocks
+                record tasks based on each hour. It generates the timeblocks
                 dynamically and updates based on the hour in order to mark past
                 events in one color, highlight the current hour, and have the
                 future events in another color for easier readability.
@@ -121,13 +125,45 @@
                 class="btn btn-primary center"
                 href="https://github.com/SamiSully/Daily-Task-Planner"
                 role="button"
-                >Code</a
-              >
+                ><i class="fas fa-code"></i></i
+              ></a>
               <a
                 class="btn btn-primary center"
                 href="https://samisully.github.io/Daily-Task-Planner/"
                 role="button"
                 >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header">
+              <h5>Workspace Manager</h5>
+            </div>
+            <div class="card-body justify-content-center">
+              <img
+                class="card-img-top portfolioImage"
+                src="./assets/employeeTrackerDemo.png"
+                alt="Card image cap"
+              />
+              <hr />
+              <p class="card-text">
+                A command line application that lets you add employees, roles,
+                and departments, while also updating their information or
+                deleting them from the system, using Node.js, MySql, and
+                Inquirer.
+              </p>
+              <p>
+                There is no live demo since it is a command line application,
+                but you can download it from github and use it on your own
+                machine!
+              </p>
+              <a
+                class="btn btn-primary center"
+                href="https://github.com/SamiSully/Full-Employee-Tracker"
+                role="button"
+                ><i class="fas fa-code"></i></a
               >
             </div>
           </div>
@@ -156,7 +192,7 @@
                 class="btn btn-primary center"
                 href="https://github.com/SamiSully/Coding-Quiz"
                 role="button"
-                >Code</a
+                ><i class="fas fa-code"></i></a
               >
               <a
                 class="btn btn-primary center"
@@ -172,32 +208,37 @@
         <div class="col-md-4">
           <div class="card text-center">
             <div class="card-header">
-              <h5>Password Generator</h5>
+              <h5>Rubbish Rumble</h5>
             </div>
             <div class="card-body justify-content-center">
               <img
                 class="card-img-top portfolioImage"
-                src="./assets/PasswordGeneratorDemo.png"
+                src="./assets/Preview4.png"
                 alt="Card image cap"
               />
               <hr />
               <p class="card-text">
-                A single page javascript application that will generate a
-                random, secure password between 8 characters and 128 characters
-                in length based on the different types of characters that the
-                user will be prompted to choose between.
+                A single player battle RPG where you create your own list of
+                characters to them battle an enemy fighter! Allows individual
+                users to create characters attached to their name that level up
+                and increate their stats as they win fights.
+              </p>
+              <p>
+                I built this application from scratch with 3 of my classmates!
+                This application used mySQL, Sequalize, Node.js, Jquery,
+                Handlebars, JavaScript, Materialize, and Animate.CSS.
               </p>
               <a
                 class="btn btn-primary center"
-                href="https://github.com/SamiSully/password-generator"
+                href="https://github.com/SamiSully/Rubbish-Rumble"
                 role="button"
-                >Code</a
+                ><i class="fas fa-code"></i></a
               >
               <a
                 class="btn btn-primary center"
-                href="https://samisully.github.io/password-generator/"
+                href="http://rubbishrumble.herokuapp.com/"
                 role="button"
-                >Live Demo</a
+                ><i class="fas fa-gamepad"></i>  Play!</a
               >
             </div>
           </div>
@@ -226,11 +267,44 @@
                 class="btn btn-primary center"
                 href="https://github.com/rajdeep24/CityZen"
                 role="button"
-                >Code</a
+                ><i class="fas fa-code"></i></a
               >
               <a
                 class="btn btn-primary center"
                 href="https://rajdeep24.github.io/CityZen/"
+                role="button"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header">
+              <h5>Password Generator</h5>
+            </div>
+            <div class="card-body justify-content-center">
+              <img
+                class="card-img-top portfolioImage"
+                src="./assets/PasswordGeneratorDemo.png"
+                alt="Card image cap"
+              />
+              <hr />
+              <p class="card-text">
+                A single page javascript application that will generate a
+                random, secure password between 8 characters and 128 characters
+                in length based on the different types of characters that the
+                user will be prompted to choose between.
+              </p>
+              <a
+                class="btn btn-primary center"
+                href="https://github.com/SamiSully/password-generator"
+                role="button"
+                ><i class="fas fa-code"></i></a
+              >
+              <a
+                class="btn btn-primary center"
+                href="https://samisully.github.io/password-generator/"
                 role="button"
                 >Live Demo</a
               >
